@@ -16,4 +16,4 @@ TechQuizMaster is a simple, interactive web-based quiz application that helps yo
 - **CSS3** – Styling and layout
 - **JavaScript** – Functionality and interactivity
 
-## 📸 Screenshots
+## Screenshots
