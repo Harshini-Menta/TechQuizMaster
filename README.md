@@ -18,3 +18,5 @@ TechQuizMaster is a simple, interactive web-based quiz application that helps yo
 
 ## Screenshots
 ![Image](https://github.com/user-attachments/assets/61327dd5-88e4-4e60-96f7-0c3dada17f50)
+
+![Image](https://github.com/user-attachments/assets/352dd6a6-2f03-4010-aca4-1048b65397c7)
