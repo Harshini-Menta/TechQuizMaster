@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #446874, #6f9083);
+  padding: 20px;
+}
+
+.quiz-wrapper {
+  width: 100%;
+  max-width: 450px;
+  background: rgba(165, 34, 34, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(10, 10, 10, 0.2);
+  text-align: center;
+}
+
+.quiz-wrapper h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.question-box {
+  background: #5a3968;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.question-box p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.option-btn {
+  width: 100%;
+  background: #0b1e2d;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #8f9e98;
+}
+
+.correct {
+  background-color: #016705 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.incorrect {
+  background-color: #9d0d03 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.result {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #00796b;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.next-btn,
+.restart-btn {
+  background: #813636;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.next-btn:hover,
+.restart-btn:hover {
+  background-color: #99b9ad;
+}
+
+@media (max-width: 500px) {
+  .quiz-wrapper {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
